@@ -51,6 +51,7 @@ img {
 .page-navigation {
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
 .logo-first {
@@ -65,9 +66,13 @@ img {
 
 }
 
+.logo-header {
+    margin-right: 76px;
+}
+
 .logo-second {
     color: #2e2f42;
-    margin-right: 76px;
+
 }
 
 .logofooter {
@@ -84,6 +89,8 @@ img {
 .navigation-container {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #e7e9fc
+    
 }
 
 .contacts {
@@ -99,6 +106,7 @@ img {
 
 .main-contacts {
     font-style: normal;
+    gap: 40px;
 
 }
 
@@ -152,7 +160,7 @@ img {
 }
 
 .page-title {
-    width: 496px;
+    max-width: 496px;
 
     margin-left: auto;
     margin-right: auto;
@@ -165,6 +173,9 @@ img {
 }
 
 .do-order {
+    border: none;
+    height: 56px;
+    min-width: 169px;
     margin-top: 48px;
     display: block;
     margin-left: auto;
@@ -180,6 +191,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border-radius: 4px;
 }
 
 .do-order:hover,
@@ -213,7 +225,7 @@ img {
 
 .content-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .content {
@@ -239,16 +251,17 @@ img {
     text-transform: capitalize;
     margin-bottom: 72px;
 }
-
+.fon-team {
+    background-color: #FFFFFF;
+    width: calc((100%-72px) /4);
+    border-radius: 0px 0px 4px 4px;
+}
 .content-head {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    margin-left: 16px;
-    margin-right: 16px;
     margin-bottom: 8px;
 
 }
@@ -259,46 +272,42 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-right: 16px;
-    margin-left: 16px;
-    padding-bottom: 32px;
 }
 
 .content-list-projects {
     display: flex;
     column-gap: 24px;
     flex-wrap: wrap;
+    row-gap: 48px;
 
 }
 
 .projects-list {
-    width: calc((100%-48px) /3);
+    width: calc((100%-48px) /3); 
 }
 
 .discription-box {
+    padding: 32px 16px;
     border-bottom: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
-    margin-bottom: 48px;
 }
 
-
+.main-logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .conclusion {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .conclusion-text {
+    max-width: 264px;
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 16.5px;
-}
-
-.logo-footer-conteiner {
-    padding-top: 101.5px;
-    padding-bottom: 100px;
-    width: 264px;
 }
