@@ -105,7 +105,8 @@ img {
 .main-navigation,
 .contacts,
 .content-list,
-.content-list-portfolio {
+.content-list-portfolio,
+.content-list-projects {
     list-style-type: none;
 }
 
@@ -167,7 +168,7 @@ img {
     margin-top: 48px;
     display: block;
     margin-left: auto;
-        margin-right: auto;
+    margin-right: auto;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
@@ -187,7 +188,7 @@ img {
 }
 
 /*section2*/
- 
+
 .content-head-team {
     color: #2e2f42;
     font-size: 20px;
@@ -213,8 +214,8 @@ img {
 .content-list {
     display: flex;
     column-gap: 24px;
-    flex-wrap: wrap;
 }
+
 .content {
     color: #2e2f42;
 }
@@ -245,7 +246,10 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin: 32px 16px 8px;
+    padding-top: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 8px;
 
 }
 
@@ -260,9 +264,22 @@ img {
     padding-bottom: 32px;
 }
 
+.content-list-projects {
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+
+}
+
 .projects-list {
     width: calc((100%-48px) /3);
-    border: 1px solid #E7E9FC;   
+}
+
+.discription-box {
+    border-bottom: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    margin-bottom: 48px;
 }
 
 
@@ -277,4 +294,11 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 16.5px;
+}
+
+.logo-footer-conteiner {
+    padding-top: 101.5px;
+    padding-bottom: 100px;
+    width: 264px;
 }
