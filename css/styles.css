@@ -58,18 +58,6 @@ img {
     border-bottom: 1px solid #e7e9fc;
 }
 
-.logo-first-footer {
-    color: #4D5AE5;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: inline-block;
-    margin-bottom: 16px;
-}
 
 
 .logo-first {
@@ -314,7 +302,18 @@ img {
 }
 
 
-
+.logo-first-footer {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .conclusion {
     background-color: #2E2F42;
