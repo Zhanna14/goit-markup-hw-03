@@ -51,7 +51,6 @@ img {
 .page-navigation {
     display: flex;
     align-items: center;
-    gap: 40px;
 }
 
 .page-header {
